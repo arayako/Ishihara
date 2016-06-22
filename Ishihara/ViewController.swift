@@ -17,8 +17,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var answerTextField: UITextField!
     
+    
+    
     //Explicit
     var strAnswer:String = ""
+    var intIndex:Int = 0
+    
     
     
     
@@ -38,6 +42,9 @@ class ViewController: UIViewController {
         
         strAnswer = String(answerTextField.text)
         print("strAnswer ==> \(strAnswer)")
+        
+        intIndex += 1
+        print("intIndex ==>\(intIndex)")
         
     }  //answerButton
     
